@@ -1,4 +1,5 @@
-
+application:
+    name: API-GATEWAY-CONFIG
 eureka:
   instance:
     prefer-ip-address: true
