@@ -23,13 +23,6 @@ logging:
         jdbc: DEBUG
         orm: DEBUG
 
-logging:
-  level:
-    root: info
-    org.springframework.web: DEBUG
-    org.springframework.web.servlet.DispatcherServlet: DEBUG
-    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
-
 eureka:
   instance:
     prefer-ip-address: true
